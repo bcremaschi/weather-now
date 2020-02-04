@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-weather {
+  height: 100vh;
+  background-image: radial-gradient(
+    161.9% 288.03% at 22.64% 17.46%,
+    #ff9212 0%,
+    #fcff80 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Libre Franklin', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 10px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 555px;
+  height: 270px;
+  background: #ffffff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.city-contents {
+  //height: 35%;
+  width: 420px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 1em;
+  margin-bottom: 3em;
+  border-bottom: 1px solid #ff9212;
+  font-family: 'Libre Franklin', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ff9212;
+}
+
+.weather-contents {
+  width: 420px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  color: #a4a4a4;
+  font-family: 'Libre Franklin', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.weather-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 56px;
+  line-height: 20px;
+  padding-right: 24px;
+  border-right: 1px solid #ff9212;
+}
+
+.img-degrees {
+  display: flex;
+  align-self: flex-start;
+}
+
+.message {
+  width: 250px;
+  align-self: center;
+}

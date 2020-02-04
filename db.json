@@ -1,0 +1,39 @@
+{
+  "weathers": [
+    {
+      "id": 1,
+      "weather": 0,
+      "message": "É melhor esquentar um chá e assistir um Netflix..."
+    },
+    {
+      "id": 2,
+      "weather": 5,
+      "message": "Que friooo..."
+    },
+    {
+      "id": 3,
+      "weather": 15,
+      "message": "Está um frio suportável, partiu sair com a galera."
+    },
+    {
+      "id": 4,
+      "weather": 22,
+      "message": "Temperatura ideal!"
+    },
+    {
+      "id": 5,
+      "weather": 28,
+      "message": "Está calor, coloque sua regata!"
+    },
+    {
+      "id": 6,
+      "weather": 35,
+      "message": "Muito quente, partiu piscina!"
+    },
+    {
+      "id": 7,
+      "weather": 45,
+      "message": "Só Deus na causa..."
+    }
+  ]
+}
