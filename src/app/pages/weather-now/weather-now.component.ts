@@ -18,7 +18,7 @@ export class WeatherNowComponent implements OnInit {
     private weatherService: WeatherService
   ) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.getDataWeather();
   }
 

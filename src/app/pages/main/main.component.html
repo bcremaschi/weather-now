@@ -1,11 +1,16 @@
-<h1>Tempo Agora</h1>
-<div class="form-group">
-  <form [formGroup]="formSearch" (ngSubmit)="onSubmit($event.preventDefault())">
-    <input
-      placeholder="Digite a sua cidade"
-      formControlName="city"
-      name="city"
-    />
-    <button class="btn btn-primary" type="submit">Buscar</button>
-  </form>
+<div class="container-main">
+  <h1>Tempo Agora</h1>
+  <div class="contents">
+    <form
+      [formGroup]="formSearch"
+      (ngSubmit)="onSubmit($event.preventDefault())"
+    >
+      <input
+        placeholder="Digite a sua cidade"
+        formControlName="city"
+        name="city"
+      />
+      <button class="btn btn-primary" type="submit">Buscar</button>
+    </form>
+  </div>
 </div>
